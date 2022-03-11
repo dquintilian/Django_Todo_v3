@@ -1,9 +1,19 @@
 <h3>Todo</h3>
 
-{% for task in tasks %}
+
+
+<form method="POST" actions="/">
+    {% csrf_token %}
+    {{form.title}}
+    <input type="submit" name="Create Task">
+
+</form>
 <!-- Here is where the tasks are getting listed out by the for loop -->
+
+{% for task in tasks %}
 <div>
     <p>{{task}}</p>
+
 </div>
 
 {% endfor %}
