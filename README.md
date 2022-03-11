@@ -1,6 +1,6 @@
 # Django_Todo_v3
 
-this is an app I created while following a tutorial. Venturing into learning how django works 
+This is an app I created while following a tutorial. Venturing into learning how django works 
 
 More adventure awaits to create django stuff
 
